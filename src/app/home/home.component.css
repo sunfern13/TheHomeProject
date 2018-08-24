@@ -1,0 +1,36 @@
+.jumbotron {
+    height:100vh;
+    margin: 0;
+    vertical-align: middle;
+}
+.fl-1, .fl-3, .fl-5{
+    
+    background-color: rgba(255, 255, 255, 0.5)!important;
+    color: black;
+}
+
+.fl-1 h1, .fl-3 h1, .fl-5 h1 {
+    
+    color: black;
+}
+
+.fl-2, .fl-4{
+    background: url("..\..\assets\wallpapers.jpg") no-repeat;
+    color: white;
+}
+
+.fl-1 .jumbotron h1 {
+    margin-top: 200px;
+}
+
+.fl-2 .jumbotron h1 {
+    margin-top: 150px;
+}
+
+.fl-3 .jumbotron h1 {
+    margin-top: 100px;
+}
+
+#aboutus{
+    transition: all 5s;
+}
